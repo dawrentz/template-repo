@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic UI Interactions</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1 id="title">Dynamic (UI) Interactions</h1>
+      <div id="nav-div">
+        <h3 class="inner-title">Menu</h3>
+        <div class="drop-down-menu hidden" id="nav-drop-down-menu">
+          <div class="inner-nav-title" id="home-nav-title">Home</div>
+          <div class="inner-nav-title" id="profile-nav-title">Profile</div>
+          <div class="inner-nav-title" id="contact-nav-title">Contact</div>
+        </div>
+      </div>
+    </div>
+    <div id="main-content">
+      <div id="img-carousel-container">
+        <div id="all-carousel-images">
+          <img src="images/r.png" alt="red" />
+          <img src="images/o.png" alt="orange" />
+          <img src="images/y.png" alt="yellow" />
+          <img src="images/g.png" alt="green" />
+          <img src="images/b.png" alt="blue" />
+          <img src="images/i.png" alt="indigo" />
+          <img src="images/v.png" alt="violet" />
+        </div>
+      </div>
+      <div id="nav-wrapper">
+        <img
+          src="images/menu-left.svg"
+          alt="left navigation arrow"
+          class="nav-arrow"
+          id="left-nav-arrow"
+          date-shift-int="-1"
+        />
+        <div id="img-nav-circles">
+          <!-- js -->
+        </div>
+        <img
+          src="images/menu-right.svg"
+          alt="right navigation arrow"
+          class="nav-arrow"
+          id="right-nav-arrow"
+          date-shift-int="1"
+        />
+      </div>
+    </div>
+  </body>
+</html>
