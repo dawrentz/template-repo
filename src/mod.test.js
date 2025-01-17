@@ -1,6 +1,5 @@
-import { experiments } from "webpack";
-import * as Mod from "./mod.js";
+import * as mod from "./mod.js";
 
 test("works", () => {
-  expect(Mod.testFunc()).toBe(777);
+  expect(mod.testFunc()).toBe(777);
 });

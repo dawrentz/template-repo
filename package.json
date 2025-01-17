@@ -1,5 +1,6 @@
 {
   "name": "template-repo",
+  "type": "module",
   "version": "1.0.0",
   "description": "Dedicated template repo for init new projects",
   "main": "index.js",
